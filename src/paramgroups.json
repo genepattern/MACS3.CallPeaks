@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Required Parameters",
+        "description": "Required Parameters for MACS3",
+        "hidden": false,
+        "parameters": [
+            "Treatment",
+            "Type"
+        ]
+    },
+    {
+        "name": "Optional Paramters",
+        "description": "Optional Parameters for MACS3. Except for Control, any written parameters in this section will override default parameters.",
+        "hidden": true,
+        "parameters": [
+            "Control",
+            "ExpName",
+            "Format",
+            "GenomeSize",
+            "TagSize",
+            "qValue",
+            "pValue",
+            "MinLength",
+            "MaxGap",
+            "NoLambda",
+            "SmallLocal",
+            "LargeLocal",
+            "NoModel",
+            "ExtendSize",
+            "Shift",
+            "KeepDuplicates",
+            "BroadRegion",
+            "BroadCutoff",
+            "Scale",
+            "BedGraph",
+            "Summits",
+            "Buffer",
+            "Seed"
+        ]
+    }
+]
